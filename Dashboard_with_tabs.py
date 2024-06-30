@@ -26,6 +26,7 @@ filtered_data = filtered_data[filtered_data['Type'] != '139104']
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div([
